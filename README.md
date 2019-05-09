@@ -28,7 +28,7 @@ replace [YourListener] with your JUnit listener’s full name.
 </plugin>
 ```
 2) Add the agent.jar file as a dependency as it is used by the 'Listener.java' file. 
-(The following dependency was written for my 'JPAgent.jar' file which is attached 
+(The following dependency was written for my 'Agent.jar' file which is attached 
 in the repository for your reference)
 ```
 <dependency>
@@ -36,7 +36,7 @@ in the repository for your reference)
 <groupId>JPAgent</groupId>
 <version>1.0</version>
 <scope>system</scope>
-<systemPath>${basedir}/JPAgent.jar</systemPath>
+<systemPath>${basedir}/Agent.jar</systemPath>
 </dependency>
 ```
 3) Add the asm package as a dependency if needed as it is used by multiple files.
